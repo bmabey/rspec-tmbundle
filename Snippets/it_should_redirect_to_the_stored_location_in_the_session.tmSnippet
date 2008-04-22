@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>it_should_redirect_to_the_stored_location_in_the_session</string>
+	<key>name</key>
+	<string>it_should_redirect_to_the_stored_location_in_the_session</string>
+	<key>tabTrigger</key>
+	<string>its</string>
+	<key>uuid</key>
+	<string>5BF5C2E7-924D-4EDC-98E1-DC959BFC13D6</string>
+</dict>
+</plist>

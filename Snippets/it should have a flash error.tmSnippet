@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>it_should_place_an_error_in_the_flash
+</string>
+	<key>name</key>
+	<string>it_should_have_a_flash error</string>
+	<key>tabTrigger</key>
+	<string>its</string>
+	<key>uuid</key>
+	<string>EA7320A4-6016-49A6-A874-6E8D8EC17CC7</string>
+</dict>
+</plist>

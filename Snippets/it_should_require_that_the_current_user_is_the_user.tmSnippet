@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>it_should_require_that_the_current_user_is_the_user
+</string>
+	<key>name</key>
+	<string>it_should_require_that_the_current_user_is_the_user</string>
+	<key>tabTrigger</key>
+	<string>its</string>
+	<key>uuid</key>
+	<string>A5514EE1-06A0-4B23-ADA2-59BB0A844950</string>
+</dict>
+</plist>
