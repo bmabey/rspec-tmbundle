@@ -23,7 +23,7 @@ module Spec
           
           case parent
             when 'lib', 'app' then
-              if rails?(prefix)
+              if rails_or_merb?(prefix)
                 path = path.gsub(/\/app\//, "/spec/")
                 path = path.gsub(/\/lib\//, "/spec/lib/")
               else
@@ -36,7 +36,7 @@ module Spec
               path = path.gsub(/\.rhtml_spec\.rb$/, ".rhtml")
               path = path.gsub(/\.erb_spec\.rb$/, ".erb")
               path = path.gsub(/_spec\.rb$/, ".rb")
-              if rails?(prefix)
+              if rails_or_merb?(prefix)
                 path = path.gsub(/\/spec\/lib\//, "/lib/")
                 path = path.gsub(/\/spec\//, "/app/")
               else
@@ -60,8 +60,8 @@ module Spec
         "file"
       end
       
-      def rails?(prefix)
-        File.exist?(File.join(prefix, 'config', 'boot.rb'))
+      def rails_or_merb?(prefix)
+        File.exist?(File.join(prefix, 'config', 'boot.rb')) || File.exist?(File.join(prefix, 'config', 'router.rb'))
       end
       
       def create?(relative_twin, file_type)
